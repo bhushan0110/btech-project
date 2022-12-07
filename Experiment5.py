@@ -53,7 +53,7 @@ def five_no_summary(Arr):
   Ans.append(UW)
   return Ans
 
-wb=openpyxl.load_workbook("C:\\Users\\Lenovo\\OneDrive\\Desktop\\DM\\Experiment5.xlsx") 
+wb=openpyxl.load_workbook("/content/Experiment5.xlsx") 
 sheet_obj = wb.active
 row = sheet_obj.max_row
 col = sheet_obj.max_column
@@ -84,4 +84,4 @@ for x in arr1:
   k=k+1
 
 
-wb.save("C:\\Users\\Lenovo\\OneDrive\\Desktop\\DM\\Experiment5_Ans.xlsx")
+wb.save("/content/Experiment5.xlsx")
