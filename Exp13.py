@@ -22,7 +22,7 @@ while 1:
   length +=1
   pattern+=str(tmp)
   string+=str(tmp)
-  string=string[1:l+10]
+  string=string[1:l+1]
 
   if string==req:
     ans.append(length)
